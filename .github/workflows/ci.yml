@@ -9,6 +9,6 @@ concurrency:
   cancel-in-progress: true 
 jobs: 
   ci: 
-    uses: aurlau/.github/workflows/python-ci.yml@main 
+    uses: aurlau/.github/workflows/python-ci.yml@master 
     permissions: 
       contents: read
